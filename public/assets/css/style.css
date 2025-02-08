@@ -5890,7 +5890,7 @@ a[data-lightbox=example-set] .img-fluid, a[data-lightbox=roadtrip] .img-fluid, a
 }
 
 .text-primary {
-    color: #1B372B !important
+    color: #50A6AA !important
 }
 
 .text-warning {
@@ -11700,8 +11700,8 @@ body.menu-bottom #collapse-menu {
 }
 
 .show > .btn-primary.dropdown-toggle, .sweet-alert .show > button.dropdown-toggle.confirm, .wizard > .actions .show > a.dropdown-toggle {
-    background-color: #1B372B !important;
-    border-color: #1B372B;
+    background-color: #50A6AA !important;
+    border-color: #50A6AA;
     -webkit-box-shadow: none;
     box-shadow: none;
     color: #fff
@@ -11774,8 +11774,8 @@ body.menu-bottom #collapse-menu {
 }
 
 .btn-primary, .sweet-alert button.confirm, .wizard > .actions a {
-    background-color: #1B372B;
-    border-color: #1B372B;
+    background-color: #50A6AA;
+    border-color: #50A6AA;
     color: #fff;
     cursor: pointer;
     -webkit-transition: all ease-in .3s;
@@ -11783,13 +11783,13 @@ body.menu-bottom #collapse-menu {
 }
 
 .btn-primary:hover, .sweet-alert button.confirm:hover, .wizard > .actions a:hover {
-    background-color: #1B372B;
-    border-color: #1B372B
+    background-color: #50A6AA;
+    border-color: #50A6AA
 }
 
 .btn-primary:active, .sweet-alert button.confirm:active, .wizard > .actions a:active {
-    background-color: #1B372B !important;
-    border-color: #1B372B;
+    background-color: #50A6AA !important;
+    border-color: #50A6AA;
     -webkit-box-shadow: none;
     box-shadow: none;
     color: #fff
@@ -12154,7 +12154,7 @@ body.menu-bottom #collapse-menu {
 }
 
 .btn-primary.btn-mat, .sweet-alert button.btn-mat.confirm, .wizard > .actions a.btn-mat {
-    background-color: #1B372B
+    background-color: #50A6AA
 }
 
 .btn-primary.btn-mat:before, .sweet-alert button.btn-mat.confirm:before, .wizard > .actions a.btn-mat:before {
@@ -12923,7 +12923,7 @@ body.menu-bottom #collapse-menu {
 }
 
 .input-group-addon {
-    background-color: #1B372B;
+    background-color: #50A6AA;
     color: #fff
 }
 

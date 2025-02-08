@@ -18,7 +18,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $data = ['manager', 'customer_informant', 'accountant', 'field_agent', 'investor', 'admin'];
+        $data = ['manager', 'customer_informant', 'accountant', 'field_agent', 'investor', 'supervisor', 'admin'];
 
         foreach ($data as $dt){
             $role = Role::create(['name' => $dt]);

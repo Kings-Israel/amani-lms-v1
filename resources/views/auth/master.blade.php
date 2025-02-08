@@ -15,10 +15,10 @@
         <meta name="author" content="Kings Israel">
 
         {{-- <link rel="icon" href="{{ asset('assets/images/fav.png') }}" type="image/x-icon"> --}}
-        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/icon/apple-touch-icon.png') }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/icon/favicon-32x32.png') }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/icon/favicon-16x16.png') }}">
-        <link rel="manifest" href="{{ asset('assets/icon/site.webmanifest') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/favicon/apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('assets/favicon/site.webmanifest') }}">
 
         <link href="../../../../fonts.googleapis.com/css0e2b.css?family=Open+Sans:400,600" rel="stylesheet">
 

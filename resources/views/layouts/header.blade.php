@@ -5,7 +5,7 @@
                 <i class="feather icon-menu"></i>
             </a>
             <a href="{{url('/home')}}">
-                <img class="img-fluid brand-logo" src="{{ asset('assets/images/LITSALOGO.jpg') }}"  alt="Theme-Logo" />
+                <img class="img-fluid brand-logo" src="{{ asset('assets/images/amani-logo.png') }}"  alt="Theme-Logo" />
             </a>
             <a class="mobile-options">
                 <i class="feather icon-more-horizontal"></i>

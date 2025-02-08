@@ -13,7 +13,7 @@
                     <form method="POST" action="{{ route('post.2fa') }}" class="md-float-material form-material">
                         @csrf
                         <div class="text-center">
-                            <img src="{{asset('assets/images/LITSALOGO.jpg')}}"  style="width: 250px;"  alt="small-logo.png">
+                            <img src="{{asset('assets/images/amani-logo.png')}}"  style="width: 250px;"  alt="small-logo.png">
                         </div>
                         <div class="auth-box card">
                             <div class="card-block">

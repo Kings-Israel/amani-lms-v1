@@ -6,20 +6,20 @@
                 <div class="col-sm-12">
                     <form method="POST" action="{{ route('login') }}" class="md-float-material form-material">
                         @csrf
-                     
+
                         <div class="auth-box card">
                             <div class="card-block">
                                 <div class="row m-b-20">
                                     <div class="col-md-12">
                                         <!-- <h3 class="text-center">Sign In</h3> -->
                                         <div class="text-center">
-                                            <img src="{{asset('assets/images/LITSALOGO.jpg')}}" style="width: 150px;"  alt="LITSA CREDITS">
+                                            <img src="{{asset('assets/images/amani-logo.png')}}" style="width: 150px;"  alt="AMANI ACCESS LMS">
                                         </div>
-                                        
+
                                     <h6 class="text-center">Please Sign In to your Account</h6>
 
                                     </div>
-                               
+
                                     @include('layouts.alert')
                                 </div>
                                 <div class="form-group form-primary">
