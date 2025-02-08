@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\models\LoanType;
 use App\models\Setting;
 use Illuminate\Database\Seeder;
 
@@ -16,6 +17,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(UsersTableSeeder::class);
         $this->call(PaymentTypeSeeder::class);
+        $this->call(LoanTypeSeeder::class);
         $this->call(ReportsSeeder::class);
         $this->call(ExpenseTypesseeder::class);
         $this->call(MsettingsTableSeeder::class);
