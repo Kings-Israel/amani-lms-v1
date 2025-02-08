@@ -1,0 +1,54 @@
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    /*background-color: #fff;
+    color: #333;
+    border: 0px solid blue !important;*/
+    line-height: 1.25;
+    background-color: #fff;
+    color: #333;
+    /*border: 1px solid rgba(0,0,0,.15);*/
+}
+
+/* from style.css */
+
+.wizard>.content {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background: #fff
+}
+
+.select2-container--default .select2-selection--single{
+    border-radius: 0 2px 2px 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 0;
+}
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ccc;
+    height: auto;
+
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: #888 transparent transparent transparent;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #8ec63f;
+}
+
+/* flexible heights on multistep forms */
+.wizard>.content {
+    min-height: 100px;
+    border: none !important;
+}
+
+.wizard>.content>.body {
+    float: none;
+	width: 100%;
+    height: auto;
+    padding: 15px;
+    position: relative;
+}
+
+.wizard .content .body.current {
+    position: relative;
+}

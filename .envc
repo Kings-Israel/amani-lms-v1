@@ -1,0 +1,137 @@
+Last login: Wed Jun 21 11:16:08 on ttys002
+charlesdev@Charless-MacBook-Pro ~ % ssh root@139.162.161.150
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-70-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Jun 21 08:18:57 UTC 2023
+
+  System load:  0.11               Processes:           144
+  Usage of /:   82.2% of 78.22GB   Users logged in:     1
+  Memory usage: 33%                IP address for eth0: 139.162.161.150
+  Swap usage:   5%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how
+MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster
+deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+Expanded Security Maintenance for Infrastructure is not enabled.
+
+51 updates can be applied immediately.
+41 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Infra to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+New release '20.04.6 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Wed Jun 21 08:08:54 2023 from 105.163.0.202
+root@localhost:~# cd /var/www/html/
+root@localhost:/var/www/html# ls
+app         index.nginx-debian.html  lms.zip        nse_nigeria
+pak.txt
+en          index2.html              nigeria        nse_nigeria_change
+taji
+index.html  lms                      nigeria_admin  old_excel.php
+v54
+root@localhost:/var/www/html# cd app
+root@localhost:/var/www/html/app# nano .env
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.9.3
+.env
+
+APP_NAME=LITSA CREDIT
+APP_ENV=production
+APP_KEY=base64:LeVHVkupeTGB7msUqw5CzwnOvfEU+etQ7zlG67hvH8M=
+APP_DEBUG=false
+APP_URL=http://172.171.247.139/litsa_lms
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=lms
+DB_USERNAME=deveint
+DB_PASSWORD=&Pz6b7Yx
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+QUEUE_CONNECTION=database
+SESSION_DRIVER=file
+SESSION_LIFETIME=90
+
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+#MAIL_DRIVER=smtp
+#MAIL_HOST=smtp.sendgrid.net
+#MAIL_PORT=587
+#MAIL_USERNAME=Charles5296
+#MAIL_PASSWORD="29179234Cc#"
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.sendgrid.net
+MAIL_PORT=587
+MAIL_USERNAME=apikey
+MAIL_PASSWORD=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
+#MAIL_USERNAME=apikey
+#MAIL_PASSWORD=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
+MAIL_ENCRYPTION=tls
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+PUSHER_APP_CLUSTER=mt1
+
+MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+MPESA_ENV="live"
+
+Akey=74c8b8fb4377b753475cf1c6ee496851bceac0c9b848acd1f21708b9a350e652
+A_sandbox_key=32c0b825f141f3eed203f8d8095d1378014151e228eb76ee3885e981f81d4abf
+A_username=willowcapital
+A_from=WILLOWCAPITAL
+
+^G Get Help      ^O Write Out     ^W Where Is      ^K Cut Text      ^J
+Justify       ^C Cur Pos       M-U Undo         M-A Mark Text    M-] To
+Bracket   M-▲ Previous     ^B Back          ^◀ Prev Word
+^X Exit          ^R Read File     ^\ Replace       ^U Uncut Text    ^T To
+Spell      ^_ Go To Line    M-E Redo         M-6 Copy Text    M-W WhereIs
+Next M-▼ Next         ^F Forward       ^▶ Next Word
+
